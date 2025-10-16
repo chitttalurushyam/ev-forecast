@@ -1,0 +1,201 @@
+id,station_name,city,state,zip,latitude,longitude,ev_connector_types,ev_network,ev_dc_fast_num,ev_level1_evse_num,ev_level2_evse_num,date_last_confirmed
+1523,Los Angeles Convention Center,Los Angeles,CA,90015,34.040539,-118.271387,J1772,Non-Networked,0,0,7,2023-01-10
+6355,Scripps Green Hospital,La Jolla,CA,92037,32.89947,-117.243,J1772,Non-Networked,0,0,1,2024-08-15
+6405,Galpin Motors,Sepulveda,CA,91343,34.221665,-118.468371,J1772,Non-Networked,0,0,2,2025-06-06
+6425,Galleria at Tyler,Riverside,CA,92503,33.909914,-117.459053,J1772,Non-Networked,0,0,4,2023-09-14
+6505,City of Pasadena - Holly Street Garage,Pasadena,CA,91103,34.14762,-118.147111,J1772,Non-Networked,0,0,26,2025-06-06
+6506,City of Pasadena - De Lacey Garage,Pasadena,CA,91105,34.145138,-118.152655,J1772,Non-Networked,0,0,3,2025-06-06
+6507,City of Pasadena - Schoolhouse Garage,Pasadena,CA,91105,34.145119,-118.150133,J1772,Non-Networked,0,0,3,2025-06-06
+6509,Bristol Farms,South Pasadena,CA,91030,34.118433,-118.149597,,Non-Networked,0,0,0,2023-05-03
+7172,Hyatt Regency Long Beach,Long Beach,CA,90802,33.7637,-118.192,J1772,Non-Networked,0,0,1,2025-06-06
+7184,Los Angeles International Airport (LAX) - Lot 6,Los Angeles,CA,90045,33.94325,-118.403342,J1772,Non-Networked,0,0,20,2024-08-15
+7192,Northridge Fashion Center East Garage Lower Level,Northridge,CA,91324,34.238716,-118.554686,J1772,SHELL_RECHARGE,0,0,5,2025-10-14
+7195,Courtyard Marriott - Oxnard Ventura,Oxnard,CA,93030,34.228315,-119.170865,J1772,Non-Networked,0,0,1,2025-06-06
+7196,Hilton - Palm Springs,Palm Springs,CA,92262,33.824004,-116.543589,J1772,Non-Networked,0,0,2,2025-06-06
+7206,Inland Empire Foods,Riverside,CA,92509,34.0189,-117.38,"J1772,TESLA",Non-Networked,0,0,4,2025-06-06
+7212,Sacramento International Airport - Daily A Lot,Sacramento,CA,95837,38.69005,-121.58889,J1772,Non-Networked,0,0,4,2025-06-06
+7229,City of Santa Monica - Airport,Santa Monica,CA,90405,34.017081,-118.44704,J1772,Non-Networked,0,0,2,2023-01-10
+7230,City of Santa Monica - Pier,Santa Monica,CA,90405,34.010021,-118.49583,J1772,Non-Networked,0,0,3,2023-01-10
+7233,Westfield Parking Garage 1st Floor,Sherman Oaks,CA,91423,34.156407,-118.438965,J1772,SHELL_RECHARGE,0,0,2,2025-10-14
+7242,Universal City Hilton,Universal City,CA,91608,34.13722,-118.35835,"J1772,NEMA520",Non-Networked,0,1,10,2024-07-11
+7250,Office Max - Home Depot,Downey,CA,90241,33.94756,-118.153806,J1772,Non-Networked,0,0,4,2024-07-11
+7280,Hyatt at Fisherman's Wharf,San Francisco,CA,94133,37.80619,-122.4152,J1772,Non-Networked,0,0,1,2025-06-06
+7286,Arden Fair Mall,Sacramento,CA,95815,38.599693,-121.427045,J1772,Non-Networked,0,0,4,2025-06-06
+21358,Palace Hotel,San Francisco,CA,94105,37.78881,-122.401,J1772,Non-Networked,0,0,2,2025-05-12
+21360,Mark Hopkins InterContinental Hotel,San Francisco,CA,94108,37.791791,-122.411265,J1772,Non-Networked,0,0,1,2024-08-15
+21395,California State University - Northridge,Northridge,CA,91330,34.248959,-118.523887,J1772,Non-Networked,0,0,2,2023-10-12
+21396,California State University - Northridge,Northridge,CA,91330,34.241687,-118.528543,J1772,Non-Networked,0,0,2,2023-10-12
+21397,California State University - Northridge,Northridge,CA,91330,34.236853,-118.532588,J1772,Non-Networked,0,0,4,2023-10-12
+21402,Los Angeles Harbor Department Headquarters,San Pedro,CA,90731,33.740758,-118.28192,J1772,Non-Networked,0,0,4,2024-07-11
+21419,Getty Center,Los Angeles,CA,90049,34.077588,-118.474585,"J1772,NEMA520",Non-Networked,0,12,15,2025-05-12
+21450,LA County DPR Arboretum,Arcadia,CA,91007,34.145528,-118.050548,J1772,POWERFLEX,0,0,3,2025-05-12
+21524,DoubleTree Hotel - Los Angeles - Westside,Culver City,CA,90230,33.9826,-118.3966,J1772,Non-Networked,0,0,2,2023-06-12
+21525,Helms Bakery Building,Los Angeles,CA,90034,34.029971,-118.385231,J1772,Non-Networked,0,0,6,2023-06-12
+21535,Westfield MainPlace Mall,Santa Ana,CA,92705,33.777054,-117.870566,J1772,Non-Networked,0,0,8,2024-07-11
+21559,California State University - Channel Islands,Camarillo,CA,93012,34.16657601660278,-119.045854662704,J1772,Non-Networked,0,0,5,2025-06-06
+21561,Brea Downtown Parking,Brea,CA,92821,33.919899,-117.898618,J1772,Non-Networked,0,0,4,2023-07-11
+21565,Home Depot,Newbury Park,CA,91320,34.192178,-118.934793,"J1772,NEMA515",Non-Networked,0,4,2,2025-10-13
+21566,Lake Casitas Municipal Water District - Recreational Area,Oak View,CA,93022,34.418322,-119.3368,J1772,Non-Networked,0,0,1,2024-07-11
+21569,San Dimas Park & Ride,San Dimas,CA,91773,34.105275,-117.809208,J1772,Non-Networked,0,0,2,2023-08-10
+21606,Ventura County Government Center,Ventura,CA,93009,34.267352,-119.2124,J1772,Non-Networked,0,0,3,2023-10-12
+21607,Ventura County Air Pollution Control District,Ventura,CA,93003,34.268756,-119.2154,J1772,Non-Networked,0,0,3,2024-05-09
+21673,University of California - Davis Extension - Lot 80,Davis,CA,95616,38.539336,-121.732405,"J1772,NEMA520",Non-Networked,0,1,3,2023-01-10
+25491,Fair Oaks - Orangevale - Community Library,Fair Oaks,CA,95628,38.66292,-121.2634,J1772,Non-Networked,0,0,2,2024-08-15
+25494,Sutter Galleria Mall - University of California - Davis Extension,Sacramento,CA,95816,38.57277,-121.467902,"J1772,NEMA520",Non-Networked,0,1,2,2023-10-12
+25497,North Highlands Library,Antelope,CA,95843,38.7042,-121.365,J1772,Non-Networked,0,0,1,2025-06-06
+25501,University of California - Davis - Medical Center,Sacramento,CA,95817,38.552483,-121.4487,J1772,Non-Networked,0,0,2,2023-10-12
+25507,Mosquito Road Park and Ride,Placerville,CA,95667,38.73323,-120.78962,J1772,Non-Networked,0,0,2,2023-05-03
+25511,City of Vacaville - Cultural Center,Vacaville,CA,95687,38.356027,-121.9628,J1772,Non-Networked,0,0,1,2024-07-11
+25514,Stars Recreation Center,Vacaville,CA,95688,38.36557,-121.967,J1772,Non-Networked,0,0,4,2024-07-11
+25515,City of Vacaville - Regional Transport Center,Vacaville,CA,95688,38.35172,-121.987,J1772,Non-Networked,0,0,2,2024-07-11
+25516,Office of Housing & Redevelopment,Vacaville,CA,95688,38.356907,-122.001886,J1772,Non-Networked,0,0,2,2024-07-11
+25517,KUIC Radio - Parking Lot,Vacaville,CA,95688,38.355867,-121.9862,J1772,Non-Networked,0,0,1,2024-07-11
+25518,City of Vacaville - City Hall,Vacaville,CA,95688,38.351758,-121.994475,J1772,Non-Networked,0,0,7,2024-08-15
+25519,Citrus Heights City Hall,Citrus Heights,CA,95621,38.682605,-121.297614,J1772,Non-Networked,0,0,4,2025-01-13
+25520,Pitt School Plaza,Dixon,CA,95620,38.457369,-121.842567,NEMA520,Non-Networked,0,1,0,2024-07-11
+25522,El Dorado County Government Center,Placerville,CA,95667,38.72799,-120.828,J1772,Non-Networked,0,0,3,2024-01-09
+25523,El Dorado Transit Park & Ride,El Dorado Hills,CA,95762,38.6476,-121.067,J1772,Non-Networked,0,0,2,2024-01-09
+25527,CVS Pharmacy,Granite Bay,CA,95746,38.74453,-121.17,J1772,Non-Networked,0,0,1,2023-08-10
+25610,Carmichael Library,Carmichael,CA,95608,38.618066,-121.334337,J1772,Non-Networked,0,0,1,2024-08-15
+27302,Rio Vista City Hall,Rio Vista,CA,94571,38.15485,-121.69,J1772,Non-Networked,0,0,1,2024-07-11
+27328,Fairfield City Hall,Fairfield,CA,94533,38.25281,-122.044229,J1772,Non-Networked,0,0,2,2024-08-15
+27329,Solano Community College,Fairfield,CA,94534,38.23723,-122.123,J1772,Non-Networked,0,0,3,2024-07-11
+27335,Vallejo Ferry Terminal,Vallejo,CA,94590,38.105062,-122.265895,,Non-Networked,0,0,0,2024-07-11
+28007,Los Angeles International Airport (LAX) - Lot 1,Los Angeles,CA,90045,33.944761,-118.399767,J1772,Non-Networked,0,0,20,2024-08-15
+33545,Nut Tree Village,Vacaville,CA,95688,38.368755,-121.961192,"J1772,NEMA515",Non-Networked,0,1,1,2024-07-11
+33555,4th and G Plaza Public Parking Garage,Davis,CA,95616,38.54643,-121.7388,J1772,Non-Networked,0,0,2,2024-05-09
+33556,Davis Amtrak Station,Davis,CA,95616,38.5443,-121.738,J1772,Non-Networked,0,0,2,2023-01-10
+33557,University of California - Davis - Quad Parking Structure,Davis,CA,95616,38.544538,-121.749713,"J1772,NEMA520",Non-Networked,0,3,7,2023-01-10
+33558,University Covenant Church,Davis,CA,95618,38.55755,-121.6947,J1772,Non-Networked,0,0,1,2024-08-15
+33559,Wildhorse Golf Club,Davis,CA,95618,38.569412,-121.721373,J1772,Non-Networked,0,0,2,2023-05-03
+33564,Lakewood Center Mall,Lakewood,CA,90712,33.84788,-118.13889,J1772,Non-Networked,0,0,2,2023-05-03
+33690,Golden Gate Ferry Terminal,Larkspur,CA,94939,37.94495,-122.5096,J1772,Non-Networked,0,0,2,2025-06-06
+33695,Oakland International Airport - Daily Lot,Oakland,CA,94621,37.7136,-122.2087,J1772,Non-Networked,0,0,4,2023-06-12
+35146,Fairfield Transportation Center,Fairfield,CA,94533,38.2482,-122.0678,J1772,Non-Networked,0,0,2,2024-07-11
+35560,Home Depot,San Luis Obispo,CA,93405,35.249929,-120.689683,J1772,Non-Networked,0,0,2,2023-05-03
+35561,San Luis Obispo Promenade - Bed Bath & Beyond,San Luis Obispo,CA,93401,35.25982,-120.676,J1772,Non-Networked,0,0,4,2024-07-11
+38379,Toyota of Santa Monica,Santa Monica,CA,90401,34.019875,-118.49151,J1772,Non-Networked,0,0,3,2022-08-10
+38518,Beach & Hyde Garage,San Francisco,CA,94109,37.806798,-122.419488,J1772,Non-Networked,0,0,5,2023-09-14
+38521,City of Santa Monica - Civic Parking Garage,Santa Monica,CA,90401,34.010528,-118.4898,"CHADEMO,J1772",Non-Networked,2,0,12,2023-01-10
+39314,Super 8 - Ukiah,Ukiah,CA,95482,39.1458,-123.198497,J1772,Non-Networked,0,0,1,2025-05-12
+39870,Antioch Nissan,Antioch,CA,94509,38.007799,-121.832042,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39871,Nissan of Bakersfield,Bakersfield,CA,93313,35.310723,-119.035324,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,3,2024-02-12
+39872,Buena Park Nissan,Buena Park,CA,90621,33.865497,-117.995215,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,3,2024-02-12
+39873,Carson Nissan,Carson,CA,90745,33.82498,-118.24566,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39874,Palm Springs Nissan,Cathedral City,CA,92234,33.78414,-116.471,"CHADEMO,J1772",Non-Networked,1,0,1,2024-02-12
+39875,Cerritos Nissan,Cerritos,CA,90703,33.861544,-118.100471,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39876,Chico Nissan,Chico,CA,95926,39.75674,-121.84372,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,3,2024-02-12
+39877,Puente Hills Nissan,City of Industry,CA,91748,33.997621,-117.928216,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39878,Lithia Nissan - Clovis,Clovis,CA,93612,36.83692,-119.71718,J1772,Non-Networked,0,0,1,2024-02-12
+39880,Autocom Nissan - Concord,Concord,CA,94520,37.980192,-122.050128,J1772,Non-Networked,0,0,1,2024-02-12
+39881,Larry H Miller Nissan,Corona,CA,92882,33.88319,-117.61565,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39882,Orange Coast Nissan,Costa Mesa,CA,92626,33.675397,-117.918684,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39883,Hanlees Nissan,Davis,CA,95618,38.55252,-121.69156,"CHADEMO,J1772",Non-Networked,1,0,1,2024-02-12
+39884,Downey Nissan,Downey,CA,90241,33.9473,-118.151166,"J1772,J1772COMBO",Non-Networked,2,0,4,2024-02-12
+39885,Nissan of Duarte,Duarte,CA,91010,34.136553,-117.975944,J1772,Non-Networked,0,0,1,2024-02-12
+39886,Mossy Nissan - El Cajon,El Cajon,CA,92020,32.795896,-116.976156,J1772,Non-Networked,0,0,1,2024-02-12
+39887,Ross Nissan El Monte,El Monte,CA,91731,34.06964,-118.02703,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39888,Nissan of Elk Grove,Elk Grove,CA,95757,38.40209,-121.38584,"CHADEMO,J1772",Non-Networked,2,0,4,2024-02-12
+39889,Mossy Nissan - Escondido,Escondido,CA,92029,33.116492,-117.106837,J1772,Non-Networked,0,0,1,2024-02-12
+39890,McCrea Nissan,Eureka,CA,95501,40.8007,-124.16421,J1772,Non-Networked,0,0,1,2024-02-12
+39891,Future Nissan of Folsom,Folsom,CA,95630,38.63424,-121.20423,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,3,2024-02-12
+39892,Fontana Nissan,Fontana,CA,92336,34.13534,-117.44573,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39893,Premier Nissan of Fremont,Fremont,CA,94538,37.49864,-121.9734,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39894,Lithia Nissan - Fresno,Fresno,CA,93710,36.818622,-119.789796,J1772,Non-Networked,0,0,1,2024-02-12
+39895,Garden Grove Nissan,Garden Grove,CA,92844,33.766376,-117.968337,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39896,Gardena Nissan,Gardena,CA,90247,33.889201,-118.307028,J1772,Non-Networked,0,0,1,2024-02-12
+39897,South County Nissan,Gilroy,CA,95020,36.996869,-121.558573,J1772,Non-Networked,0,0,1,2024-02-12
+39898,Glendale Nissan,Glendale,CA,91204,34.13714,-118.25515,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39899,Santa Barbara Nissan,Goleta,CA,93117,34.43427,-119.820934,"CHADEMO,J1772",Non-Networked,1,0,3,2024-02-12
+39901,Hayward Nissan,Hayward,CA,94544,37.662305,-122.075178,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39902,Pedder Nissan,Hemet,CA,92545,33.741163,-117.031718,J1772,Non-Networked,0,0,1,2024-02-12
+39903,Surf City Nissan,Huntington Beach,CA,92647,33.71069,-117.989861,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39904,Nissan of Irvine,Irvine,CA,92618,33.63255,-117.72335,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39905,Torre Nissan,La Quinta,CA,92253,33.70693,-116.28364,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39906,Nissan of Downtown Los Angeles,Los Angeles,CA,90015,34.035168,-118.273229,"CHADEMO,J1772",Non-Networked,1,0,1,2024-02-12
+39907,Universal City Nissan,Los Angeles,CA,90068,34.133446,-118.356601,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39908,Razzari Nissan,Merced,CA,95340,37.30584,-120.50229,J1772,Non-Networked,0,0,1,2024-02-12
+39910,Nissan of Mission Hills,Mission Hills,CA,91345,34.269809,-118.466606,J1772,Non-Networked,0,0,1,2024-02-12
+39911,Central Valley Nissan,Modesto,CA,95356,37.705119,-120.99471,J1772,Non-Networked,0,0,1,2024-02-12
+39912,Metro Nissan of Montclair,Montclair,CA,91763,34.082404,-117.694876,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39913,Metro Nissan of Redlands,Redlands,CA,92374,34.06531,-117.21201,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,3,2024-02-12
+39914,Napa Nissan,Napa,CA,94559,38.2927,-122.27752,J1772,Non-Networked,0,0,1,2024-02-12
+39915,Mossy Nissan,National City,CA,91950,32.659001,-117.100836,J1772,Non-Networked,0,0,1,2024-02-12
+39916,Mossy Nissan - Oceanside,Oceanside,CA,92056,33.181953,-117.298334,"CHADEMO,J1772,J1772COMBO",Non-Networked,3,0,2,2024-02-12
+39917,Stadium Nissan,Orange,CA,92867,33.80819,-117.86507,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39918,Team Nissan,Oxnard,CA,93036,34.22784,-119.15031,"CHADEMO,J1772",Non-Networked,1,0,1,2024-02-12
+39919,Antelope Valley Nissan,Palmdale,CA,93551,34.5914,-118.1383,"CHADEMO,J1772",Non-Networked,2,0,2,2024-02-12
+39920,North Bay Nissan,Petaluma,CA,94952,38.267202,-122.665068,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,4,2024-02-12
+39921,Mossy Nissan - Poway,Poway,CA,92064,32.95678,-117.02581,"CHADEMO,J1772",Non-Networked,1,0,1,2024-02-12
+39922,Crown Nissan,Redding,CA,96002,40.571632,-122.36654,J1772,Non-Networked,0,0,1,2024-02-12
+39925,Hanlees Hilltop Nissan,Richmond,CA,94806,37.98521,-122.32138,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39926,Raceway Nissan,Riverside,CA,92507,33.941878,-117.297603,J1772,Non-Networked,0,0,1,2024-02-12
+39927,Riverside Nissan,Riverside,CA,92504,33.925469,-117.419673,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39928,Future Nissan of Roseville,Roseville,CA,95661,38.752198,-121.256452,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39929,Nissan of Sacramento,Sacramento,CA,95821,38.63114,-121.39648,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39930,MY Nissan,Salinas,CA,93907,36.720023,-121.662519,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39931,Larry H Miller Nissan of San Bernardino,San Bernardino,CA,92408,34.07141,-117.29807,"CHADEMO,J1772",Non-Networked,1,0,1,2024-02-12
+39932,Mossy Nissan - Kearny Mesa,San Diego,CA,92111,32.833179,-117.147384,"CHADEMO,J1772",Non-Networked,1,0,1,2024-02-12
+39935,Premier Nissan,San Jose,CA,95136,37.275144,-121.877656,"CHADEMO,J1772,J1772COMBO",Non-Networked,2,0,1,2024-02-12
+39936,Nissan of San Juan Capistrano,San Juan Capistrano,CA,92675,33.47462,-117.67629,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39937,San Leandro Nissan,San Leandro,CA,94577,37.71267,-122.16245,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+39938,Coast Nissan,San Luis Obispo,CA,93405,35.25062,-120.68455,"CHADEMO,J1772",Non-Networked,1,0,4,2024-02-12
+39939,Stevens Creek Nissan,Santa Clara,CA,95051,37.32349,-121.98788,"CHADEMO,J1772,J1772COMBO",Non-Networked,2,0,1,2024-02-12
+39943,Jim Bone Nissan,Santa Rosa,CA,95404,38.42558,-122.71418,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,4,2024-02-12
+39944,Cardinale Nissan,Seaside,CA,93955,36.611189,-121.849899,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39945,Nissan of Van Nuys,Sherman Oaks,CA,91401,34.16924,-118.44896,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39947,First Nissan,Simi Valley,CA,93065,34.27735,-118.7796,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39948,Nissan of Stockton,Stockton,CA,95212,38.02221,-121.27534,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39949,Temecula Nissan,Temecula,CA,92591,33.516768,-117.155039,"CHADEMO,J1772",Non-Networked,1,0,2,2024-02-12
+39951,Tracy Nissan,Tracy,CA,95304,37.75990555387505,-121.4632051865082,J1772,Non-Networked,0,0,1,2024-02-12
+39952,Nissan of Tustin,Tustin,CA,92782,33.72487,-117.79896,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39953,Nissan of Vacaville,Vacaville,CA,95687,38.381441,-121.941218,J1772,Non-Networked,0,0,1,2024-02-12
+39955,Vallejo Nissan,Vallejo,CA,94590,38.118088,-122.255493,J1772,Non-Networked,0,0,1,2024-02-12
+39956,Valley Hi Nissan,Victorville,CA,92394,34.517883,-117.3219,J1772,Non-Networked,0,0,1,2024-02-12
+39957,Nissan of Visalia,Visalia,CA,93292,36.32325,-119.27596,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+39959,West Covina Nissan,West Covina,CA,91791,34.074227,-117.890899,"CHADEMO,J1772",Non-Networked,1,0,1,2024-02-12
+41526,Marsh Street Parking Structure,San Luis Obispo,CA,93401,35.279705,-120.6609,J1772,Non-Networked,0,0,2,2023-06-12
+43478,Malibu Country Mart,Malibu,CA,90265,34.035802,-118.686393,J1772,Non-Networked,0,0,2,2023-08-10
+45313,CITY OF DUBLIN LIBRARY MIDDLE,Dublin,CA,94568,37.702909,-121.91835,J1772,ChargePoint Network,0,0,1,2025-10-14
+46136,Amador Transit,Sutter Creek,CA,95685,38.379983,-120.807672,J1772,Non-Networked,0,0,1,2025-05-12
+46473,Golden Gate Park - Music Concourse Garage,San Francisco,CA,94118,37.768766,-122.468341,"J1772,NEMA520",Non-Networked,0,9,4,2025-01-13
+46482,Cupertino Electric,San Jose,CA,95112,37.36217972612609,-121.8995386415253,J1772,Non-Networked,0,0,12,2023-09-14
+46709,Nissan of Burlingame,Burlingame,CA,94010,37.57792,-122.341931,J1772,Non-Networked,0,0,1,2024-02-12
+46715,CITYOF CAMPBELL 2NDST GARAGE UL,Campbell,CA,95008,37.287593,-121.946908,J1772,ChargePoint Network,0,0,1,2025-10-14
+46721,Dublin Nissan,Dublin,CA,94568,37.70271,-121.91118,"CHADEMO,J1772",Non-Networked,1,0,4,2024-02-12
+46723,Stone Brewing World Bistro & Gardens,Escondido,CA,92029,33.11587,-117.11955,J1772,Non-Networked,0,0,2,2024-05-09
+46724,Momentum Nissan,Fairfield,CA,94533,38.24415,-122.0795,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,2,2024-02-12
+46729,Renaissance Indian Wells Resort & Spa,Indian Wells,CA,92210,33.72323,-116.324409,J1772,Non-Networked,0,0,2,2025-08-12
+46733,LA County Museum of Art,Los Angeles,CA,90036,34.063383,-118.35808,J1772,POWERFLEX,0,0,15,2025-05-12
+46743,Empire Nissan,Ontario,CA,91761,34.049006,-117.547161,"CHADEMO,J1772,J1772COMBO",Non-Networked,1,0,1,2024-02-12
+46974,City of Rancho Cucamonga - Animal Care & Adoption Center,Rancho Cucamonga,CA,91730,34.100456,-117.54918,J1772,Non-Networked,0,0,1,2023-01-10
+48141,Santa Maria Nissan,Santa Maria,CA,93454,34.93214,-120.4207,J1772,Non-Networked,0,0,2,2024-02-12
+48179,CITY OF COTATI COMMUNITYCENTR2,Cotati,CA,94931,38.32398,-122.709121,J1772,ChargePoint Network,0,0,1,2025-10-14
+48353,"AAA - Auto Club of Southern California, Costa Mesa Branch",Costa Mesa,CA,92626,33.69276,-117.9183,J1772,Non-Networked,0,0,2,2025-05-12
+48358,"AAA - Auto Club of Southern California, Los Angeles Branch",Los Angeles,CA,90007,34.02828,-118.2778,J1772,Non-Networked,0,0,2,2025-05-12
+48362,Marriott - Renaissance Los Angeles Airport Hotel,Los Angeles,CA,90045,33.9492,-118.385,J1772,Non-Networked,0,0,2,2025-06-06
+48368,Target,San Luis Obispo,CA,93401,35.25211177248671,-120.6859746944428,J1772,Non-Networked,0,0,6,2023-05-03
+48836,Marcum Copp Barbieri DDS,San Luis Obispo,CA,93401,35.28059,-120.657,J1772,Non-Networked,0,0,1,2023-05-03
+48838,Bella Vista Road Park & Ride Lot,Vacaville,CA,95687,38.34962,-121.987,J1772,Non-Networked,0,0,6,2024-07-11
+49122,Lodi City Hall,Lodi,CA,95240,38.13437,-121.2884,J1772,Non-Networked,0,0,4,2023-05-03
+49127,Sierra Chrysler Dodge Jeep Ram,Monrovia,CA,91016,34.13867,-117.9869,J1772,Non-Networked,0,0,3,2024-05-09
+49130,Rancho Sierra Vista - Public Parking Lot,Newbury Park,CA,91320,34.152947,-118.965356,J1772,Non-Networked,0,0,1,2025-01-13
+49131,Ontario International Airport,Ontario,CA,91761,34.0616,-117.5935,J1772,Non-Networked,0,0,6,2023-06-12
+49133,John T Lyle Center for Regenerative Studies,Walnut,CA,91768,34.049341,-117.82341,J1772,Non-Networked,0,0,2,2023-05-03
+49134,University of California - Davis Medical Center,Sacramento,CA,95817,38.553545,-121.4561,J1772,Non-Networked,0,0,50,2023-10-12
+49149,Mojave Desert Air Quality Management District,Victorville,CA,92392,34.511036,-117.325348,J1772,Non-Networked,0,0,3,2023-05-03
+49329,City of Davis - City Hall,Davis,CA,95616,38.546699,-121.7461,J1772,Non-Networked,0,0,2,2025-05-12
+49330,Yolo-Solano Air Quality Management District,Davis,CA,95618,38.54246,-121.7279,J1772,Non-Networked,0,0,2,2025-06-06
+49333,Malibu Civic Center,Malibu,CA,90265,34.037227,-118.689023,J1772,Non-Networked,0,0,3,2024-07-11
+49336,HARTNELLCOLLEGE CENTRAL AVE 1,Salinas,CA,93901,36.673856,-121.665804,J1772,ChargePoint Network,0,0,2,2025-10-14
+49350,Vallejo City Hall,Vallejo,CA,94590,38.1022,-122.261,J1772,Non-Networked,0,0,2,2023-10-12
+50011,InterContinental Hotel - San Francisco,San Francisco,CA,94103,37.782079,-122.404764,J1772,Non-Networked,0,0,2,2025-05-12
+50153,City of Pasadena - Los Robles Garage,Pasadena,CA,91101,34.144224,-118.142129,J1772,Non-Networked,0,0,6,2025-06-06
+50154,City of Pasadena - Plaza Las Fuentes,Pasadena,CA,91101,34.148186,-118.141776,J1772,Non-Networked,0,0,4,2025-06-06
+50157,Best Western - Pepper Tree Inn,Santa Barbara,CA,93105,34.441146,-119.748892,J1772,Non-Networked,0,0,2,2025-06-06
+50424,Los Angeles Metro - Chatsworth Metrolink Station,Chatsworth,CA,91311,34.253049,-118.598675,J1772,Non-Networked,0,0,3,2022-01-10
+50736,Oakland International Airport - Economy Lot,Oakland,CA,94621,37.7153,-122.2145,J1772,Non-Networked,0,0,2,2023-06-12
+50799,City of Temecula - Old Town Parking Garage,Temecula,CA,92590,33.49353,-117.146,J1772,Non-Networked,0,0,2,2023-01-10
+50949,Wilson Sonsini Goodrich & Rosati,Palo Alto,CA,94304,37.42153,-122.14477,J1772,Non-Networked,0,0,2,2023-08-10
+51002,University of California Davis - Institute of Transportation Studies,Davis,CA,95616,38.54215,-121.771,J1772,Non-Networked,0,0,2,2024-09-12
+51204,BoardTronics,Roseville,CA,95678,38.797142,-121.31234,J1772,Non-Networked,0,0,2,2024-08-15
