@@ -86,7 +86,8 @@ Copy code
 {
   "predicted_daily_sessions": 82.6
 }
-🗂️ Folder Structure
+
+## 🗂️ Folder Structure
 graphql
 Copy code
 ev-forecast/
@@ -105,7 +106,9 @@ ev-forecast/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-🚀 Quickstart
+
+
+## 🚀 Quickstart
 1. Install Dependencies
 bash
 Copy code
@@ -118,7 +121,7 @@ python -m uvicorn src.api.app:app --reload
 Visit:
 👉 http://127.0.0.1:8000/docs
 
-🧠 Tech Stack
+## 🧠 Tech Stack
 Python (pandas, numpy, xgboost, scikit-learn)
 
 FastAPI for deployment
@@ -129,7 +132,7 @@ APIs: DOE/NREL, OpenChargeMap, Meteostat
 
 Visualization: Matplotlib, Seaborn
 
-✨ Future Improvements
+## ✨ Future Improvements
 Incorporate real-time EV charging session data
 
 Add demand forecasting by hour instead of daily
@@ -138,8 +141,3 @@ Deploy API as a Docker container
 
 Integrate CI/CD with AWS Lambda or Azure Functions
 
-👨‍💻 Author
-Shyam Kumar Chittaluru
-Master’s in Data Analytics, Northeastern University
-📍 Boston, MA
-📧 chittaluru.s@northeastern.edu
