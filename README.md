@@ -85,7 +85,7 @@ json
 Copy code
 {
   "predicted_daily_sessions": 82.6
-}```
+} ```bash
 
 ---
 ## 🗂️ Folder Structure
