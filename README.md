@@ -87,6 +87,7 @@ Copy code
   "predicted_daily_sessions": 82.6
 }
 
+---
 ## 🗂️ Folder Structure
 graphql
 Copy code
@@ -107,7 +108,7 @@ ev-forecast/
 ├── requirements.txt
 └── .gitignore
 
-
+---
 ## 🚀 Quickstart
 1. Install Dependencies
 bash
@@ -120,7 +121,7 @@ python -m uvicorn src.api.app:app --reload
 3. Open Swagger Docs
 Visit:
 👉 http://127.0.0.1:8000/docs
-
+---
 ## 🧠 Tech Stack
 Python (pandas, numpy, xgboost, scikit-learn)
 
@@ -131,7 +132,7 @@ Joblib for model persistence
 APIs: DOE/NREL, OpenChargeMap, Meteostat
 
 Visualization: Matplotlib, Seaborn
-
+---
 ## ✨ Future Improvements
 Incorporate real-time EV charging session data
 
