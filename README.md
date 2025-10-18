@@ -1,154 +1,145 @@
-🚗⚡ End-to-End EV Charging Demand Forecasting — from APIs to a live FastAPI model
+# 🚗⚡ End-to-End EV Charging Demand Forecasting  
+**From APIs to a live FastAPI model**
 
-
-> \*\*Goal:\*\* Predict future daily EV charging demand using real-world data from DOE/NREL, OpenChargeMap, and Meteostat.  
-
-> This project demonstrates an end-to-end machine learning workflow — from data ingestion and feature engineering to model training, deployment, and API integration.
-
-
+## 🎯 Project Overview
+This project predicts **daily EV charging demand** using real-world data from DOE/NREL, OpenChargeMap, and Meteostat.  
+It demonstrates a **complete machine learning workflow** — from data ingestion and feature engineering to model training, deployment, and serving predictions through a live FastAPI endpoint.
 
 ---
 
+## 💡 Why This Project
+With the rise in electric vehicle (EV) adoption, utilities and charging network providers need accurate demand forecasting to:
 
-
-\## 🏁 Why This Project
-
-
-
-With rapid EV adoption, energy utilities and charging network providers must plan infrastructure capacity effectively.  
-
-Accurately forecasting daily charging sessions helps:
-
-\- \*\*Optimize station utilization\*\*
-
-\- \*\*Balance grid load\*\*
-
-\- \*\*Prioritize new charging site locations\*\*
-
-\- \*\*Improve customer experience through better availability\*\*
-
-
+- ⚙️ Optimize charging station utilization  
+- 🔋 Balance grid load efficiently  
+- 📍 Identify high-priority locations for new charging sites  
+- 🚙 Enhance user experience with better station availability  
 
 ---
 
+## 🧩 Workflow Breakdown
 
+### 1️⃣ Data Collection
+Collected and combined open datasets from:
+- **NREL Alternative Fuel Stations (DOE):** Station metadata (location, network, connectors)  
+- **OpenChargeMap:** Real-time station and connector availability  
+- **Meteostat:** Historical daily weather for selected cities (e.g., Los Angeles, Davis)
 
-\## 🧩 What We Did — Step by Step
+All raw data is stored under:  
+data/raw/
 
+markdown
+Copy code
 
+---
 
-\### \*\*1️⃣ Data Collection\*\*
+### 2️⃣ Data Cleaning & Feature Engineering
+- Standardized and merged datasets by city and date  
+- Engineered time-based features: `month`, `dayofweek`, `is_weekend`  
+- Integrated weather metrics (`tavg`, `prcp`, `wspd`)  
+- Generated realistic target variable `daily_sessions`  
+- Final processed dataset saved to:
+data/processed/ev_city_weather_demand.csv
 
-We pulled public data from three key APIs:
+yaml
+Copy code
 
-\- \*\*NREL Alternative Fuel Stations (DOE)\*\* → Station metadata (location, connector types, network)
+---
 
-\- \*\*OpenChargeMap\*\* → Real-time station status, number of connectors, power capacity
+### 3️⃣ Model Development
+- Algorithm: **XGBoost Regressor**  
+- Features included weather, infrastructure, and time-based patterns  
+- Evaluation Metrics:  
+  - **MAE:** 2.13  
+  - **R² Score:** 0.948  
+- Trained model saved as:
+data/processed/xgb_ev_model.pkl
 
-\- \*\*Meteostat\*\* → Daily weather data for pilot cities (Los Angeles, Davis)
+yaml
+Copy code
 
+---
 
+### 4️⃣ API Deployment
+Built with **FastAPI**, the app exposes a `/predict` endpoint that loads the trained model at startup.
 
-All raw datasets were stored under `data/raw/`.
-
-
-
-\### \*\*2️⃣ Data Cleaning \& Feature Engineering\*\*
-
-\- Standardized station coordinates and joined datasets by city.
-
-\- Added time features: `month`, `dayofweek`, `is\_weekend`.
-
-\- Merged weather metrics (`tavg`, `prcp`, `wspd`) with station statistics.
-
-\- Created a synthetic but realistic target variable `daily\_sessions` based on temperature, weather, and station density.
-
-\- Stored clean, joined dataset under `data/processed/ev\_city\_weather\_demand.csv`.
-
-
-
-\### \*\*3️⃣ Model Development\*\*
-
-\- Chose \*\*XGBoost Regressor\*\* for its robustness with tabular + non-linear data.
-
-\- Trained using features such as weather, infrastructure, and time patterns.
-
-\- Evaluation metrics:
-
-&nbsp; - \*\*Mean Absolute Error (MAE): 2.13\*\*
-
-&nbsp; - \*\*R² Score: 0.948\*\*
-
-\- Saved final model as `data/processed/xgb\_ev\_model.pkl`.
-
-
-
-\### \*\*4️⃣ API Deployment\*\*
-
-\- Built a \*\*FastAPI\*\* microservice exposing a `/predict` endpoint.
-
-\- Model automatically loads on startup.
-
-\- Accepts a JSON input of 12 features (weather, infrastructure, etc.) and returns a forecasted number of charging sessions.
-
-
-
-Example:
-
-
-
+#### Example Request
 ```bash
-
 POST /predict
-
 {
-
-&nbsp; "tavg": 18.2,
-
-&nbsp; "tmin": 12.0,
-
-&nbsp; "tmax": 22.5,
-
-&nbsp; "prcp": 0.0,
-
-&nbsp; "month": 5,
-
-&nbsp; "dayofweek": 3,
-
-&nbsp; "is\_weekend": 0,
-
-&nbsp; "num\_stations": 80,
-
-&nbsp; "ev\_level2\_ports": 120,
-
-&nbsp; "ev\_dc\_fast\_ports": 20,
-
-&nbsp; "total\_points": 100,
-
-&nbsp; "avg\_power\_kw": 22
-
+  "tavg": 18.2,
+  "tmin": 12.0,
+  "tmax": 22.5,
+  "prcp": 0.0,
+  "month": 5,
+  "dayofweek": 3,
+  "is_weekend": 0,
+  "num_stations": 80,
+  "ev_level2_ports": 120,
+  "ev_dc_fast_ports": 20,
+  "total_points": 100,
+  "avg_power_kw": 22
 }
-
-## Folder Structure 
+Example Response
+json
+Copy code
+{
+  "predicted_daily_sessions": 82.6
+}
+🗂️ Folder Structure
+graphql
+Copy code
 ev-forecast/
-  data/
-    raw/          # API pulls (ignored by git)
-    processed/    # features & model
-  notebooks/
-    1_data_collection.ipynb
-  src/
-    api/
-      app.py      # FastAPI: POST /predict
-  README.md
-  requirements.txt
-  .gitignore
-
-
-
-## 🚀 Quickstart
-
-```bash
+│
+├── data/
+│   ├── raw/               # API source data
+│   └── processed/          # Clean data & trained model
+│
+├── notebooks/
+│   └── 1_data_collection.ipynb
+│
+├── src/
+│   └── api/
+│       └── app.py          # FastAPI app with /predict endpoint
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+🚀 Quickstart
+1. Install Dependencies
+bash
+Copy code
 pip install -r requirements.txt
+2. Run the API
+bash
+Copy code
 python -m uvicorn src.api.app:app --reload
-# open http://127.0.0.1:8000/docs
+3. Open Swagger Docs
+Visit:
+👉 http://127.0.0.1:8000/docs
 
+🧠 Tech Stack
+Python (pandas, numpy, xgboost, scikit-learn)
+
+FastAPI for deployment
+
+Joblib for model persistence
+
+APIs: DOE/NREL, OpenChargeMap, Meteostat
+
+Visualization: Matplotlib, Seaborn
+
+✨ Future Improvements
+Incorporate real-time EV charging session data
+
+Add demand forecasting by hour instead of daily
+
+Deploy API as a Docker container
+
+Integrate CI/CD with AWS Lambda or Azure Functions
+
+👨‍💻 Author
+Shyam Kumar Chittaluru
+Master’s in Data Analytics, Northeastern University
+📍 Boston, MA
+📧 chittaluru.s@northeastern.edu
