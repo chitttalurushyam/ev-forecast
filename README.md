@@ -1,5 +1,4 @@
-\# ⚡ EV Charging Demand Forecasting — End-to-End Data Science Project
-
+🚗⚡ End-to-End EV Charging Demand Forecasting — from APIs to a live FastAPI model
 
 
 > \*\*Goal:\*\* Predict future daily EV charging demand using real-world data from DOE/NREL, OpenChargeMap, and Meteostat.  
