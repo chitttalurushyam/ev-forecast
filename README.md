@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-live-green)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)
 # 🚗⚡ End-to-End EV Charging Demand Forecasting  
 **From APIs to a live FastAPI model**
 
