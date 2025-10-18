@@ -93,7 +93,7 @@ Copy code
 ---
 ## 🗂️ Folder Structure
 graphql
-Copy code
+```
 ev-forecast/
 │
 ├── data/
@@ -110,6 +110,7 @@ ev-forecast/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ---
 ## 🚀 Quickstart
